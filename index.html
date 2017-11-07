@@ -1,73 +1,92 @@
-<!doctype html>
+<!-- Basic HTML file which contains,
+   a. Page heading and nav bar 
+   b. 3 Column section.
+   c. A 1 column hero unit 
+   d. A footer. With social links 
+---------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
 <html>
   <head>
-  <title>MyFirstAssigment</title>
-  <meta.charset = "utf-8">
-  <link rel="stylesheet"  href = "MyWebPage.css" />
+    <meta charset="utf-8">
+    <title>MyFirstWebpage</title>
+    <link rel="stylesheet" href="css/ContainerGrid.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <img src="img/Logo.png" alt="My Logo"></a>
-  <div class="container_1">
-      <header class="grid_1">
-        <span id="Oracle">Oracle Cloud</span>
-        </header>
-      <div class="cover grid_12">
-        <img src="home2.png" alt="Oracle HomePage">
-      </div>
   <body>
-    
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-    <h1>Services Offered </h1>
-
-<div class="row">
-  <div class="column" style="background-color:#aaa;">
-    <h2>Database Related...</h2>
-    <p>Space available for Column 1</p>
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <h2>On Prem Related....</h2>
-    <p>Space available for Column 2</p>
-  </div>
-  <div class="column" style="background-color:#ccc;">
-    <h2>Cloud Related ...</h2>
-    <p>Space available for Column 3</p>
-  </div>
-</div>
-<div class ="footer_one">
-  <h4> Head Quaters</h4>
-    <p> SanFransico, CA</p>
-  <h4> Contact US</h4>
-    <ul>
-      <li class="contactus"> <a href="#ContactUsWillCallYou">Contact Us</a></li>
-    </ul>
-</div>
-<div class ="footer_two">
-  <h4> Cloud</h4>
-    <ul>
-      <li class="cloud"> <a href="#LinktoOverviewofCloudSolutions">Overview of Cloud Solutions</a></li>
-    </ul>
-  </div>
-  <div class ="FBLink">
-    <h4> Facebook</h4>
-      <ul>
-      <li > <a href="#LinktoFaceBook">Connect us on Facebook!</a></li>
-    </ul>
-  </div>
-  <div class="row fullwidth">
-    <div class="large-12 columns">
-        <!-- Your Content Here -->
+    <div class="container_1">
+      <header class="grid_1">
+        <span id="Nature">Nature's Home Stay</span>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Accomodation</a></li>
+            <li><a href="#">ContactUs</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="homestay grid_1">
+        <img src="img/homestaypic.jpg" alt=" HomeStay pic">
+      </div>
     </div>
-  </div>
-  <div class="row fullWidth">
-    <div class="large-12 columns">
+    <div class="container_1 ">
+      <div class="main">
+        <div class="grid_2">
+          <section>
+            <h3>About </h3>
+            <p>Contents of Column one </p>
+          </section>
+        </div>
+        <div class="grid_2">
+          <section>
+            <h3>Accomodation</h3>
+            <p>Contents of Column two   </p>
+          </section>
+        </div>
+        <div class="grid_2">
+          <section>
+            <h3>Attraction</h3>
+            <p>Contents of Column three</p>
+          </section>
+        </div>
+      </div>
+      
+      <div class="twocolumns container_1">
+        <div class="grid_3">
+          <h3>For Enquires and Booking</h3>
+            <h4> Contact ::</h4>
+            
+              <p><b>Girish </b><br> ABC POST, <br> XYZ Town <br> Karnataka <br> Mobile : +91 98450 98450</p>
+          
+        </div>
+        <div class="col2 grid_2">
+          <section>
+            <blockquote>
+              <p>"Contents of Row one"</p>
+            </blockquote>
+          </section>
+          <section>
+            <blockquote>
+              <p>"Contents of Row two"</p>
+            </blockquote>
+          </section>
+          <section>
+            <blockquote>
+              <p>"Contents of Row three"</p>
+            </blockquote>
+          </section>
+        </div>
+      </div>
+      <div class="container_1">
+        <footer>
+          <p>&copy Girish Rao</p>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>Google+</a></li>
+           </ul>
+        </footer>
+      </div>
     </div>
-</div>
-
-
-</body>
-
+  </body>
 </html>
